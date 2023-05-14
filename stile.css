@@ -1,0 +1,102 @@
+body {
+  background-color: #142850;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+.header_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 289px;
+}
+.header_section img {
+  width: 100px;
+  border-radius: 20px;
+}
+.header_section a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.header_section a:hover {
+  color: rgba(98, 98, 255, 0.533);
+}
+
+.site_slogan h1 {
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-left: 180px;
+  margin-top: 250px;
+}
+.site_slogan img {
+  width: auto;
+  margin-top: -350px;
+  margin-left: 150px;
+}
+
+.companiy_history h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 300px;
+  margin-left: 350px;
+  color: #fff;
+}
+.companiy_history p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-left: 350px;
+  color: #fff;
+}
+.companiy_history img {
+  margin-left: 810px;
+  margin-top: -228px;
+  border-radius: 24px;
+}
+
+.work_of_company {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin-top: 200px;
+}
+
+.card_work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.card_work .card_1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #fff;
+  width: 300px;
+}
+.card_work .card_2 {
+  margin-left: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #fff;
+  width: 300px;
+}
+.card_work .card_3 {
+  margin-left: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #fff;
+}
